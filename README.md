@@ -1,6 +1,3 @@
-== README
-
-```
 bundle exec
 ```
 ```
@@ -20,5 +17,5 @@ rake db:migrate db:test:clone
 rake g migration AddFieldsToContact firstname lastname email_address
 ```
 ```
-rake db:migrate RAILS_ENV=test`
-``
+rake db:migrate RAILS_ENV=test
+```
